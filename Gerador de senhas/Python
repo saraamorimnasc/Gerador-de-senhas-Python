@@ -1,0 +1,8 @@
+import random
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQ"
+senha = ''
+print("Sua senha")
+for i in range(16):
+  senha += random.choice(chars)
+
+print(senha)
